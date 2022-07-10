@@ -1,3 +1,11 @@
+body {
+  font-family: 'Quattrocento', sans-serif;
+}
+
+select {
+  font-family: 'Quattrocento', sans-serif;
+}
+
 .total-block {
   position: relative;
   left: 50%;
