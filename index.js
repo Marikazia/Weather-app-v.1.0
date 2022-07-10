@@ -18,10 +18,9 @@ const param = {
 }
 function getWeather() {
 	let ct = document.querySelector('#city').value;
-    fetch(`${param.url}weather?id=${ct}&appid=${param.appid}`)
-        .then(weather => {
-            return weather.json();
-        }).then(showWeather);
+    fetch(`${param.url}weather?id=${ct}&appid=${param.appid}`).then(weather => {
+			return weather.json();
+		}).then(showWeather);
 }
 function showWeather(data) {
 	console.log(data);
