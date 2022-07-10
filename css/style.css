@@ -1,0 +1,9 @@
+.container {
+  width: 150px;
+  border: 1px solid;
+  background-color: #cccccc;
+}
+
+.block {
+  margin: 10px;
+}
